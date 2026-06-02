@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return {"mensagem": "API funcionando corretamente"}
+    return "Sistema de Biblioteca Online"
 
 
 @app.route("/status")
