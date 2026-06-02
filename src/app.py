@@ -28,6 +28,11 @@ def livros():
     return "Lista de livros cadastrados"
 
 
+@app.route("/autores")
+def autores():
+    return "Lista de autores cadastrados"
+
+
 if __name__ == "__main__":
     app.run(debug=True, port = 5001)
 
