@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Sistema de Gestão de Biblioteca de Murilo Sobral"
+    return "Sistema de Gestão de Biblioteca de Murilo Sobral Lisboa da Silva"
 
 
 @app.route("/status")
